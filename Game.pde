@@ -24,6 +24,7 @@ String getJankenResult(String hand) {
 
  return null;
 }
+
 String desideCpuHand() {
  int cpuHandNum = (int)random(3);
  if (cpuHandNum == 0) return "Gu";
